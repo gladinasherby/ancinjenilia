@@ -1,0 +1,67 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #ff9ff3, #c56cf0, #6a89cc);
+    color: #000;
+    text-align: center;
+    margin: 20px;
+    transition: background 0.5s ease;
+}
+
+#content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+#choices {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 10px;
+    padding: 15px 25px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(to right, #fd79a8, #e84393);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #d63031, #ff7675);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #e84393;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+law-info {
+    font-style: italic;
+    color: #e74c3c;
+    margin-top: 10px;
+}
